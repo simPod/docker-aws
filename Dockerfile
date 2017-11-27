@@ -16,6 +16,7 @@ WORKDIR /tmp
 RUN apk --no-cache add \
       bash \
       bash-completion \
+      gettext \
       groff \
       less \
       curl \
